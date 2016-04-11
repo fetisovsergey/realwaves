@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% provide(:title, @user.name) %>
+	<meta name="description" content="YourWaves | <%= @user.name %>" />
+</head>
+<body>
+
+  <div id="user_form">
+  	<% if current_user.admin? %>
+      <div>
+		<%= link_to image_tag("community.png",class:"image"),users_user_path %>
+      </div>
+	<% end %>
+      <div>
+        <%= link_to image_tag("add.png",class:"image"),new_post_user_path(current_user) %>
+      </div>
+      <div>
+         <%= link_to image_tag("manage.png",class:"image"),manage_user_path(current_user) %>
+      </div>
+  	  <div>
+  		<%= link_to image_tag(current_user.avatar.url(:medium),class:"avatar"),edit_user_path(current_user) %><br>
+	  	<%= current_user.name %>
+	  </div>
+      <div>
+         <%= link_to image_tag("settings.png",class:"image"),edit_user_path(current_user) %>
+      </div>
+	  <div>
+	    <%= link_to image_tag("signout.png",class:"image"),signout_path, method: "delete" %>
+  	  </div>
+</div>
+
+ <% if @products.count > 0 %>
+  <h5>Ваши публикации</h5>
+  <% @products.each do |product| %>
+  	<%= render 'shared/your_product_icon', :product => product %>
+  <% end %>
+ <% end %>
+ 
+ <% if @votes.count > 0 %>
+  <h5>Вам понравилось</h5>
+  <% @votes.last(300).each do |vote| %>
+  	<%= render 'shared/product_icon', :vote => vote %>
+  <% end %>
+ <% end %>
+</body>
+</html>
+
+
+

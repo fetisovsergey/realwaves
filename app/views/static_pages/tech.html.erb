@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% provide(:title, @title) %>
+	<meta name="description" content="YourWaves - платформа для представления уникальных вещей и услуг | Технологии" />
+</head>
+
+<body>
+	<% if !@products.blank? %>
+		<% @products.each do |product| %>
+			<% if product == @products.first %>
+				<%= render 'products/product_big', :product => product %>
+			<% else %>
+				<% if product == @products.second %>
+					<%= render 'products/product_second', :product => product %>
+				<% else %>
+					<%= render 'products/product_small', :product => product %>
+				<% end %>
+			<% end %>
+		<% end %>
+		<%= render 'shared/paginate', :products => @products %>
+	<% else %>
+		<h5>Данный раздел находится в разработке</h5>
+	<% end %>
+</body>
+</html>
+
+
+
+

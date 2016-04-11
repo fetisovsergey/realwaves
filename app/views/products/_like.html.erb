@@ -1,0 +1,12 @@
+<a href="<%= upvote_product_path(product.id) %>" data-method="put" data-remote="true" class="btn">
+	LIKE
+	<% if product.votes.count != 0 %>
+		| <%= image_tag("heart_active.png",style:"width:15px;opacity:0.5") %>
+		<% if product.votes.count > 9999 %>
+			<%= product.votes.count/1000 %>K
+		<% else %>
+			<%= product.votes.count %>
+		<% end %>
+	<% end %>
+</a>
+

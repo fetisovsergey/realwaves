@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% provide(:title, @title) %>
+	<meta name="description" content="YourWaves - платформа для представления уникальных вещей и услуг | <%= @title %>" />
+</head>
+<body>
+	
+<div id="your_waves_contact_page">
+  <%= link_to image_tag("logo5.png", alt: "YourWaves",style:"width:20%"), root_path %> в социальных сетях<br><br>
+  
+  <div class="social_logo">
+  <a href="https://vk.com/your_waves">
+	  <%= image_tag("vkontakte1.png",class:"image") %><br>Your&nbspWaves
+  </a>
+  </div>
+  
+  <div class="social_logo">
+  <a href="http://instagram.com/your_waves">
+	  <%= image_tag("instagram1.png",class:"image") %><br>@your_waves
+  </a>
+  </div>
+  <br><br>
+  По вопросам сотрудничества и рекламы<br>пишите на 
+  <a href="mailto:info@yourwaves.ru">
+	  info@yourwaves.ru
+  </a>
+</div>
+</body>
+</html>

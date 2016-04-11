@@ -1,0 +1,13 @@
+<span class="product_status">
+<% if signed_in? %>
+	<div id="like<%= product.id%>">
+		<% if !product.voting?(current_user) %>
+			<%= render 'products/like', :product => product %>
+		<% else %>
+			<%= render 'products/dislike', :product => product %>
+		<% end %>
+	</div>
+<% else %>
+	<%= render 'votes/signin', :product => product %>
+<% end %>
+</span>

@@ -1,0 +1,23 @@
+<div id="navigation_header" class="navbar navbar-fixed-top container">
+      <%= link_to image_tag("logo4.png", alt: "Your Waves",id:"header_logo"), root_path %>
+        <ul class="nav navbar-nav pull-right" style="margin-right:6px;">
+		  <li><%= link_to("СТИЛЬ", style_path, class:"header_button") %></li>
+		  <li><%= link_to("КИНО И МУЗЫКА", movies_and_music_path, class:"header_button") %></li>
+		  <li><%= link_to("ТРАНСПОРТ", vehicle_path, class:"header_button") %></li>
+		  <li><%= link_to("ТЕХНОЛОГИИ", tech_path, class:"header_button") %></li>
+		  <li><%= link_to("СПОРТ", sport_path, class:"header_button") %></li>
+		  <li><%= link_to("ДРУГОЕ", stuff_path, class:"header_button") %></li>
+		  <li id="search_field">
+		  	<%= link_to image_tag("search.png", size: "30x30"), search_path %>
+		  </li>
+		  <% if signed_in? %>
+		  	  <li id="user_field">
+		  	  	 <a href="<%= user_path(current_user) %>">
+		  	  	 	<%= image_tag(current_user.avatar.url(:thumb),class:"img-rounded",size:"30x30") %>
+		  	  	 </a>
+		  	  </li>
+		  <% else %>
+			  <li><%= link_to("ВОЙТИ", signin_path, class:"header_button") %></li>
+	      <% end %>
+        </ul>
+</div>

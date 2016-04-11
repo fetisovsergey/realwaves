@@ -1,0 +1,42 @@
+<% provide(:title, @product.title) %>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="<%= @product.title %>" />
+</head>
+<div class="product" id="product_main">
+  <% if !@product.photo2.url.blank? %>
+    <%= render 'products/product_slideshow', :product => @product %>
+  <% else %>
+    <%= image_tag(@product.photo1.url(:full),style:"width:100%") %>
+  <% end %>
+    <%= render 'shared/product_category', :product => @product %>
+  <h1><%= @product.title %></h1>
+
+  <section class="content">
+    <%= @product.content %>
+  </section>
+
+  <h2>
+    <a href="http://<%= @product.link %>" style="text-decoration: none" target="_blank">
+      <span class="btn btn-inverse" >
+        <% if @product.status == 1 %>
+          Купить
+        <% end %>
+        <% if @product.status == 2 %>
+          Узнать больше
+        <% end %>
+        <% if @product.status == 3 %>
+          Сделать предзаказ
+        <% end %>
+        <% if @product.status == 4 %>
+          Получить
+        <% end %> на <%= @product.company_name %>
+      </span>
+    </a><br>
+    <%= render 'shared/product_status', :product => @product %>
+  </h2>
+</div>
+<% @other_products.each do |product| %>
+  <%= render 'products/product_small', :product => product %>
+<% end %>

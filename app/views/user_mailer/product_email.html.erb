@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Вы разместили публикацию на YourWaves</h1>
+    <p>
+	  <h2><%= @product.title %></h2>
+      <%= @product.content %><br/>
+	  <h2>
+	  Ссылка: <%= @product.link %><br/>
+	  Компания: <%= @product.company_name %><br/>
+	  Статус: 
+      <% if @product.status == 1 %>
+      	Купить
+      <% end %>
+      <% if @product.status == 2 %>
+        Узнать больше
+      <% end %>
+      <% if @product.status == 3 %>
+        Сделать предзаказ
+      <% end %>
+      <% if @product.status == 4 %>
+        Получить
+      <% end %>
+	  <br/>
+	  Ваша публикация проверяется модератором<br/>
+      После проверки Вы можете увидеть ее на YourWaves!
+	  </h2>
+    </p>
+  </body>
+</html>

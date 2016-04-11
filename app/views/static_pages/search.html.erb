@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% provide(:title, @title) %>
+	<meta name="description" content="YourWaves - платформа для представления уникальных вещей и услуг | Поиск" />
+</head>
+
+<body>
+	<div id="signup_form">
+	<h1>Поиск</h1>
+	<%= form_tag(products_path, :method => "get") do %>
+	  <%= text_field_tag :search, params[:search],placeholder: "Введите ключевое слово для поиска",
+	  class: "text_form" %><br>
+	  <%= submit_tag "Поиск", class: "btn btn-inverse", style:"width:60%;background:#000000" %><br>
+	<% end %>
+	</div>
+</body>
+</html>
+
+
+

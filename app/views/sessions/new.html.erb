@@ -1,0 +1,12 @@
+<% provide(:title, 'Вход') %>
+  <div id="signup_form">
+  <h1>Вход в аккаунт</h1>
+    <%= form_for(:session, url: sessions_path) do |f| %>
+      Адрес электронной почты<br>
+      <%= f.text_field :email, placeholder: "E-mail или имя пользователя", class: "text_form" %><br>
+      Пароль<br>
+      <%= f.password_field :password, placeholder: "Ваш пароль", class: "text_form" %><br>
+      <%= f.submit "Войти", class: "btn btn-inverse", style:"width:60%;background:#000000" %><br>
+    <% end %>
+    <%= link_to("Новый пользователь?", signup_path,style:"color:#000000") %>
+</div>

@@ -1,0 +1,66 @@
+<div class="product_li">
+	<%= link_to image_tag(product.photo1.url(:icon)),product %>
+	<%= product.title %>
+
+	<span style="position:absolute;left:40%;top:10%">
+	Категория: 
+	<% if product.category1 == 1 %>
+	<%= link_to("Cтиль", style_path, style:"color:#000000") %>
+	<% end %>
+
+	<% if product.category1 == 2 %>
+	<%= link_to("Кино и музыка", movies_and_music_path, style:"color:#000000") %>
+	<% end %>
+
+	<% if product.category1 == 3 %>
+	<%= link_to("Транспорт", vehicle_path, style:"color:#000000") %>
+	<% end %>
+
+	<% if product.category1 == 4 %>
+	<%= link_to("Технологии", tech_path, style:"color:#000000") %>
+	<% end %>
+
+	<% if product.category1 == 5 %>
+	<%= link_to("Спорт", sport_path, style:"color:#000000") %>
+	<% end %>
+
+	<% if product.category1 == 6 %>
+	<%= link_to("Другое", stuff_path, style:"color:#000000") %>
+	<% end %>
+	
+ 	<br>
+	Опубликовано: <%= product.created_at.strftime("%d.%m.%Y %H:%M:%S") %><br>
+ 	<% if product.created_at != product.updated_at %>
+ 		Изменено: <%= product.updated_at.strftime("%d.%m.%Y %H:%M:%S") %><br>
+    <% end %>
+	
+	
+	<% if current_user.admin? %>
+	 	<% user = User.find(product.user_id) %>
+	 	Автор: <%= user.name %> (<%= user.email %>)<br>
+		Ссылка: <%= product.link %> 
+	<% else %>
+		Статус: 
+	 	<% if product.available == true %>
+	 		Активен<br>
+	    <% else %>
+			Проверяется модератором<br>
+		<% end %>
+	<% end %>
+	</span>
+
+	<span style="position:absolute;right:15px;top:10%">
+			<%= link_to("Редактировать", edit_product_path(product.id),style:"color:#000000") %>
+			&nbsp
+			<%= link_to "Удалить", product, style:"letter-spacing:normal;color:#000000",method: :delete,
+			data: { confirm: "Вы уверены, что хотите удалить публикацию?" } %>
+			<% if current_user.admin? %>
+				<br>
+				<% if product.available == true %>
+					<%= link_to("Заблокировать", deactivate_product_path(product.id),method: :put,style:"color:#000000") %>
+				<% else %>
+					<%= link_to("Одобрить", activate_product_path(product.id),method: :put,style:"color:#000000") %>
+				<% end %>
+			<% end %>
+	</span>
+</div>

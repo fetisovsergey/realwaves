@@ -1,0 +1,9 @@
+<tr>
+	<td><%= user.id %></td>
+	<td><%= image_tag(user.avatar.url(:thumb)) %></td>
+	<td><%= user.name %></td>
+	<td><%= user.email %></td>
+	<td><%= user.created_at.strftime("%d.%m.%Y %H:%M:%S") %></td>
+	<td><%= user.products.count %></td>
+	<td><%= user.products.where(available: true).count %></td>
+</tr>

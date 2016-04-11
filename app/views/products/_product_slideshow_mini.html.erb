@@ -1,0 +1,28 @@
+<div id="main_carousel_product" class="carousel slide carousel-fade">
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= link_to image_tag(product.photo1.url(:medium)), product %>
+    </div>
+    <div class="item">
+        <%= link_to image_tag(product.photo2.url(:medium)), product %>
+    </div>
+    <% if !product.photo3.url.blank? %>
+      <div class="item">
+        <%= link_to image_tag(product.photo3.url(:medium)), product %>
+      </div>
+    <% end %>
+    <% if !product.photo4.url.blank? %>
+      <div class="item">
+        <%= link_to image_tag(product.photo4.url(:medium)), product %>
+      </div>
+    <% end %>
+    <% if !product.photo5.url.blank? %>
+      <div class="item">
+        <%= link_to image_tag(product.photo5.url(:medium)), product %>
+      </div>
+    <% end %>
+  </div>
+  <a class="carousel-control left"  href="#main_carousel_product" data-slide="prev">‹</a>
+  <a class="carousel-control right" href="#main_carousel_product" data-slide="next">›</a>
+</div>

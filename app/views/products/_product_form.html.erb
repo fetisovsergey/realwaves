@@ -1,0 +1,103 @@
+
+<%= form_for(@product) do |f| %>
+  <%= render 'shared/error_messages_of_product', object: f.object %>
+  <div class="row">
+    <div class="span2">
+      Статус
+    </div>
+    <div class="span5">
+      <%= f.select(:status, [['Купить', 1], ['Узнать больше', 2],['Сделать предзаказ', 3],['Получить', 4]]) %>
+    </div>
+  </div>
+  <br>
+  
+  <div class="row">
+    <div class="span2">
+      Категория
+    </div>
+    <div class="span5">
+      <%= f.select(:category1, [['Стиль', 1],['Кино и музыка', 2],['Транспорт', 3],['Технологии', 4],['Спорт', 5],['Другое', 6]]) %>
+    </div>
+  </div>
+  <br>
+
+  <div class="row">
+    <div class="span2">
+      Заголовок
+    </div>
+    <div class="span5">
+      <%= f.text_field :title, placeholder: "Заголовок публикации о товаре (услуге)",class:"text_form" %>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="span2">
+      Ссылка
+    </div>
+    <div class="span5">
+      <%= f.text_field :link, placeholder: "Ссылка на сайт (страницу) с более подробной информацией",class:"text_form" %>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="span2">
+      Компания
+    </div>
+    <div class="span5">
+      <%= f.text_field :company_name, placeholder: "Название компании, представляющей товар (услугу)",class:"text_form" %>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="span3">
+      
+      Фотографии<br><br>
+	  
+	  <% if @product.photo1.blank? %>
+      	<%= f.file_field :photo1, accept: 'image/png,image/gif,image/jpeg' %>
+	  <% else %>
+	  	<%= f.file_field :photo1, accept: 'image/png,image/gif,image/jpeg',id:"photo1_file_field",style:"display:none" %>
+	  	<%= image_tag(@product.photo1.url(:icon),style:"width:40%",class:"btn",id:"photo1_button") %>
+		<br><br>
+	  <% end %>
+	  
+	  <% if @product.photo2.blank? %>
+      	<%= f.file_field :photo2, accept: 'image/png,image/gif,image/jpeg' %>
+	  <% else %>
+	  	<%= f.file_field :photo2, accept: 'image/png,image/gif,image/jpeg',id:"photo2_file_field",style:"display:none" %>
+	  	<%= image_tag(@product.photo2.url(:icon),style:"width:40%",class:"btn",id:"photo2_button") %>
+		<br><br>
+	  <% end %>
+	  
+	  <% if @product.photo3.blank? %>
+      	<%= f.file_field :photo3, accept: 'image/png,image/gif,image/jpeg' %>
+	  <% else %>
+	  	<%= f.file_field :photo3, accept: 'image/png,image/gif,image/jpeg',id:"photo3_file_field",style:"display:none" %>
+	  	<%= image_tag(@product.photo3.url(:icon),style:"width:40%",class:"btn",id:"photo3_button") %>
+		<br><br>
+	  <% end %>
+	  
+	  <% if @product.photo4.blank? %>
+      	<%= f.file_field :photo4, accept: 'image/png,image/gif,image/jpeg' %>
+	  <% else %>
+	  	<%= f.file_field :photo4, accept: 'image/png,image/gif,image/jpeg',id:"photo4_file_field",style:"display:none" %>
+	  	<%= image_tag(@product.photo4.url(:icon),style:"width:40%",class:"btn",id:"photo4_button") %>
+		<br><br>
+	  <% end %>
+	  
+	  <% if @product.photo5.blank? %>
+      	<%= f.file_field :photo5, accept: 'image/png,image/gif,image/jpeg' %>
+	  <% else %>
+	  	<%= f.file_field :photo5, accept: 'image/png,image/gif,image/jpeg',id:"photo5_file_field",style:"display:none" %>
+	  	<%= image_tag(@product.photo5.url(:icon),style:"width:40%",class:"btn",id:"photo5_button") %>
+	  <% end %><br><br>
+	  
+      <%= f.submit "Разместить", class: "btn btn-inverse", style:"background:#000000;width:100%" %>
+    </div>
+    <div class="span8">
+	  Информация:<br><br>
+      <%= f.text_area :content, placeholder: "",class:"text_form content_form" %>
+    </div>
+  </div>
+
+<% end %>

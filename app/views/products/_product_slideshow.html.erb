@@ -1,0 +1,42 @@
+<div id="main_carousel_product" class="carousel slide carousel-fade">
+
+  <ol class="carousel-indicators" style="display:block">
+    <li data-target="#main_carousel_product" data-slide-to="0" class="active"></li>
+    <li data-target="#main_carousel_product" data-slide-to="1"></li>
+    <% if !product.photo3.url.blank? %>
+      <li data-target="#main_carousel_product" data-slide-to="2"></li>
+    <% end %>
+    <% if !product.photo4.url.blank? %>
+      <li data-target="#main_carousel_product" data-slide-to="3"></li>
+    <% end %>
+    <% if !product.photo5.url.blank? %>
+      <li data-target="#main_carousel_product" data-slide-to="4"></li>
+    <% end %>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= image_tag(product.photo1.url(:full)) %>
+    </div>
+    <div class="item">
+        <%= image_tag(product.photo2.url(:full)) %>
+    </div>
+    <% if !product.photo3.url.blank? %>
+      <div class="item">
+        <%= image_tag(product.photo3.url(:full)) %>
+      </div>
+    <% end %>
+    <% if !product.photo4.url.blank? %>
+      <div class="item">
+        <%= image_tag(product.photo4.url(:full)) %>
+      </div>
+    <% end %>
+    <% if !product.photo5.url.blank? %>
+      <div class="item">
+        <%= image_tag(product.photo5.url(:full)) %>
+      </div>
+    <% end %>
+  </div>
+  <a class="carousel-control left"  href="#main_carousel_product" data-slide="prev">‹</a>
+  <a class="carousel-control right" href="#main_carousel_product" data-slide="next">›</a>
+</div>

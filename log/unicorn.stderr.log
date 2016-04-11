@@ -1,0 +1,448 @@
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:2349 (or pid=/var/run/unicorn/hosting_fetisovsergey/yourwaves.fetisovsergey.pid is stale) (ArgumentError)
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:135:in `start'
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/unicorn-4.9.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/bin/unicorn_rails:23:in `load'
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/bin/unicorn_rails:23:in `<main>'
+I, [2015-06-20T12:11:14.835546 #25872]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T12:11:16.916656 #25872]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T12:11:16.916916 #25872]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T12:11:16.922549 #25872]  INFO -- : master process ready
+I, [2015-06-20T12:11:16.995114 #25901]  INFO -- : worker=0 ready
+I, [2015-06-20T13:10:22.355465 #2551]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T13:10:24.593175 #2551]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T13:10:24.593480 #2551]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T13:10:24.599092 #2551]  INFO -- : master process ready
+I, [2015-06-20T13:10:24.659256 #2593]  INFO -- : worker=0 ready
+I, [2015-06-20T15:10:52.657981 #16221]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T15:10:54.898080 #16221]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T15:10:54.922775 #16221]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T15:10:54.928813 #16221]  INFO -- : master process ready
+I, [2015-06-20T15:10:55.005916 #16278]  INFO -- : worker=0 ready
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:16221 (or pid=/var/run/unicorn/hosting_fetisovsergey/yourwaves.fetisovsergey.pid is stale) (ArgumentError)
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:135:in `start'
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/unicorn-4.9.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/bin/unicorn_rails:23:in `load'
+	from /var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/bin/unicorn_rails:23:in `<main>'
+I, [2015-06-20T15:12:00.592323 #17980]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T15:12:02.814470 #17980]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T15:12:02.814753 #17980]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T15:12:02.820612 #17980]  INFO -- : master process ready
+I, [2015-06-20T15:12:02.889308 #18158]  INFO -- : worker=0 ready
+I, [2015-06-20T16:43:56.717356 #19738]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T16:43:58.835168 #19738]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T16:43:58.835451 #19738]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T16:43:58.841798 #19738]  INFO -- : master process ready
+I, [2015-06-20T16:43:58.900304 #19767]  INFO -- : worker=0 ready
+I, [2015-06-20T16:50:03.582369 #27221]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T16:50:05.900485 #27221]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T16:50:05.900778 #27221]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T16:50:05.907125 #27221]  INFO -- : master process ready
+I, [2015-06-20T16:50:05.975068 #27262]  INFO -- : worker=0 ready
+I, [2015-06-20T16:59:02.442857 #6393]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T16:59:04.511660 #6393]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T16:59:04.511930 #6393]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T16:59:04.517944 #6393]  INFO -- : master process ready
+I, [2015-06-20T16:59:04.579892 #6427]  INFO -- : worker=0 ready
+I, [2015-06-20T17:15:59.643958 #24668]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:16:01.715689 #24668]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:16:01.715956 #24668]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:16:01.721896 #24668]  INFO -- : master process ready
+I, [2015-06-20T17:16:01.786215 #24763]  INFO -- : worker=0 ready
+I, [2015-06-20T17:17:55.156794 #26967]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:17:57.208951 #26967]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:17:57.209229 #26967]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:17:57.214947 #26967]  INFO -- : master process ready
+I, [2015-06-20T17:17:57.273879 #26987]  INFO -- : worker=0 ready
+I, [2015-06-20T17:19:23.231214 #28384]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:19:25.286707 #28384]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:19:25.286967 #28384]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:19:25.292446 #28384]  INFO -- : master process ready
+I, [2015-06-20T17:19:25.350011 #28406]  INFO -- : worker=0 ready
+I, [2015-06-20T17:20:39.838428 #30674]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:20:41.923058 #30674]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:20:41.923328 #30674]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:20:41.929355 #30674]  INFO -- : master process ready
+I, [2015-06-20T17:20:41.986831 #30697]  INFO -- : worker=0 ready
+I, [2015-06-20T17:22:21.027562 #32456]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:22:23.296053 #32456]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:22:23.296355 #32456]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:22:23.302712 #32456]  INFO -- : master process ready
+I, [2015-06-20T17:22:23.379202 #32487]  INFO -- : worker=0 ready
+I, [2015-06-20T17:25:08.182737 #3928]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:25:10.210644 #3928]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:25:10.210929 #3928]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:25:10.216419 #3928]  INFO -- : master process ready
+I, [2015-06-20T17:25:10.277689 #3955]  INFO -- : worker=0 ready
+I, [2015-06-20T17:30:57.207510 #9596]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:30:59.270955 #9596]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:30:59.271228 #9596]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:30:59.277581 #9596]  INFO -- : master process ready
+I, [2015-06-20T17:30:59.338185 #9631]  INFO -- : worker=0 ready
+I, [2015-06-20T17:45:57.275924 #24374]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:45:59.327548 #24374]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:45:59.327819 #24374]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:45:59.333548 #24374]  INFO -- : master process ready
+I, [2015-06-20T17:45:59.391651 #24399]  INFO -- : worker=0 ready
+E, [2015-06-20T17:52:28.602854 #24374] ERROR -- : reaped #<Process::Status: pid 24399 SIGKILL (signal 9)> worker=0
+I, [2015-06-20T17:52:28.670158 #29941]  INFO -- : worker=0 ready
+I, [2015-06-20T17:53:01.170522 #30593]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-06-20T17:53:03.218510 #30593]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-06-20T17:53:03.218773 #30593]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-06-20T17:53:03.224197 #30593]  INFO -- : master process ready
+I, [2015-06-20T17:53:03.276797 #30653]  INFO -- : worker=0 ready
+D, [2015-07-02T03:24:36.121858 #30593] DEBUG -- : waiting 21.0s after suspend/hibernation
+I, [2015-07-07T13:58:08.286132 #5059]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-07T13:58:10.666486 #5059]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-07T13:58:10.687267 #5059]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-07T13:58:10.692785 #5059]  INFO -- : master process ready
+I, [2015-07-07T13:58:10.750683 #5132]  INFO -- : worker=0 ready
+I, [2015-07-07T14:10:01.183262 #3175]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-07T14:10:04.219850 #3175]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-07T14:10:04.234561 #3175]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-07T14:10:04.240211 #3175]  INFO -- : master process ready
+I, [2015-07-07T14:10:04.307711 #4171]  INFO -- : worker=0 ready
+I, [2015-07-07T14:23:53.054140 #1399]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-07T14:23:56.070358 #1399]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-07T14:23:56.086117 #1399]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-07T14:23:56.093969 #1399]  INFO -- : master process ready
+I, [2015-07-07T14:23:56.230914 #1441]  INFO -- : worker=0 ready
+I, [2015-07-07T16:23:56.432538 #23039]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-07T16:23:59.915404 #23039]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-07T16:23:59.925597 #23039]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-07T16:23:59.931480 #23039]  INFO -- : master process ready
+I, [2015-07-07T16:23:59.987946 #23108]  INFO -- : worker=0 ready
+I, [2015-07-07T23:13:59.997593 #14066]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-07T23:14:04.051349 #14066]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-07T23:14:04.072922 #14066]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-07T23:14:04.079089 #14066]  INFO -- : master process ready
+I, [2015-07-07T23:14:04.144884 #14259]  INFO -- : worker=0 ready
+I, [2015-07-09T11:45:55.293794 #18390]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-09T11:45:59.699752 #18390]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-09T11:45:59.715197 #18390]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-09T11:45:59.721762 #18390]  INFO -- : master process ready
+I, [2015-07-09T11:45:59.780334 #18502]  INFO -- : worker=0 ready
+I, [2015-07-09T15:21:04.152603 #2717]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-09T15:21:07.163186 #2717]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-09T15:21:07.185799 #2717]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-09T15:21:07.192235 #2717]  INFO -- : master process ready
+I, [2015-07-09T15:21:07.281600 #2758]  INFO -- : worker=0 ready
+I, [2015-07-09T15:23:26.947465 #5433]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-09T15:23:29.401010 #5433]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-09T15:23:29.401325 #5433]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-09T15:23:29.408930 #5433]  INFO -- : master process ready
+I, [2015-07-09T15:23:29.499272 #5458]  INFO -- : worker=0 ready
+I, [2015-07-09T15:36:06.964855 #21340]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-09T15:36:09.213002 #21340]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-09T15:36:09.213356 #21340]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-09T15:36:09.219867 #21340]  INFO -- : master process ready
+I, [2015-07-09T15:36:09.293468 #21369]  INFO -- : worker=0 ready
+I, [2015-07-09T19:10:03.921354 #13984]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-09T19:10:06.756398 #13984]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-09T19:10:06.780908 #13984]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-09T19:10:06.787782 #13984]  INFO -- : master process ready
+I, [2015-07-09T19:10:06.879601 #14027]  INFO -- : worker=0 ready
+I, [2015-07-09T19:14:16.797262 #18084]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-09T19:14:18.876110 #18084]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-09T19:14:18.876378 #18084]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-09T19:14:18.882251 #18084]  INFO -- : master process ready
+I, [2015-07-09T19:14:18.942574 #18111]  INFO -- : worker=0 ready
+I, [2015-07-11T10:23:10.350690 #20833]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-11T10:23:14.762914 #20833]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-11T10:23:14.788796 #20833]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-11T10:23:14.795122 #20833]  INFO -- : master process ready
+I, [2015-07-11T10:23:14.861931 #20924]  INFO -- : worker=0 ready
+I, [2015-07-11T10:26:16.266604 #24681]  INFO -- : Refreshing Gem list
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: already initialized constant Net::SMTPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/smtp.rb:806: warning: previous definition of SMTPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: already initialized constant Net::POP
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:687: warning: previous definition of POP was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: already initialized constant Net::POPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:688: warning: previous definition of POPSession was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: already initialized constant Net::POP3Session
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:689: warning: previous definition of POP3Session was here
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: already initialized constant Net::APOPSession
+/var/www/home/hosting_fetisovsergey/projects/yourwaves/vendor/gems/ruby/2.1.0/gems/tlsmail-0.0.1/lib/net/pop.rb:702: warning: previous definition of APOPSession was here
+I, [2015-07-11T10:26:18.342404 #24681]  INFO -- : unlinking existing socket=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock
+I, [2015-07-11T10:26:18.342679 #24681]  INFO -- : listening on addr=/var/sockets/hosting_fetisovsergey/yourwaves.fetisovsergey.sock fd=11
+I, [2015-07-11T10:26:18.348251 #24681]  INFO -- : master process ready
+I, [2015-07-11T10:26:18.405223 #24715]  INFO -- : worker=0 ready

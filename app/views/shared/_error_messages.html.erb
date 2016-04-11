@@ -1,0 +1,66 @@
+<% if object.errors.any? %>
+  <div id="error_explanation">
+    <% object.errors.full_messages.each do |msg| %>
+        <% if msg.include?("invalid") %>
+           <% if msg.include?("Email") %>
+            Неверный адрес электронной почты
+           <% end %>
+           <% if msg.include?("Name") %>
+            Неверное имя пользователя
+           <% end %>
+           <% if msg.include?("Password") %>
+            Слишком простой пароль
+           <% end %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("blank") %>
+           <% if msg.include?("Email") %>
+            Введите адрес электронной почты
+           <% end %>
+           <% if msg.include?("Name") %>
+            Введите имя пользователя
+           <% end %>
+           <% if msg.include?("confirmation") %>
+            Повторите пароль
+           <% end %>
+           <% if msg.include?("Password") and !msg.include?("confirmation") %>
+            Введите пароль
+           <% end %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("taken") %>
+           <% if msg.include?("Email") %>
+            Такой адрес электронной почты уже существует
+           <% end %>
+           <% if msg.include?("Name") %>
+            Такое имя пользователя уже существует
+           <% end %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("match") %>
+           Введенные пароли не совпадают
+           <% break %>
+        <% end %>
+        <% if msg.include?("short") %>
+           <% if msg.include?("Name") %>
+            Имя пользователя слишком короткое
+           <% end %>
+           <% if msg.include?("Password") %>
+            Пароль слишком короткий
+           <% end %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("long") %>
+           <% if msg.include?("Name") %>
+            Имя пользователя слишком длинное
+           <% end %>
+           <% if msg.include?("Email") %>
+            Адрес электронной почты слишком длинный, используйте другой адрес!
+           <% end %>
+           <% break %>
+        <% else %>
+          <%= msg %>
+        <% end %>
+    <% end %>
+  </div>
+<% end %>

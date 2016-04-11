@@ -1,0 +1,7 @@
+<a href="<%= signin_path %>" class="btn">
+	LIKE
+	<% if product.votes.count != 0 %>
+		| <%= image_tag("heart_active.png",style:"width:15px;opacity:0.5") %>
+		<%= product.votes.count %>
+	<% end %>
+</a>

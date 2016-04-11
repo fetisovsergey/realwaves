@@ -1,0 +1,38 @@
+<div class="product" id="product_big">
+
+  
+  <% if !product.photo2.url.blank? %>
+    <%= render 'products/product_slideshow_mini', :product => product %>
+  <% else %>
+    <%= link_to image_tag(product.photo1.url(:medium),style:"width:100%"),product %>
+  <% end %>
+  <%= render 'shared/product_category', :product => product %>
+  <h1><%= product.title %></h1>
+
+  <section class="content">
+    <a href="<%= product_path(product) %>" style="text-decoration:none;color:#000000">
+      <%= product.content %>
+      <div class="gradient"></div>
+    </a>
+  </section>
+
+  <h2>
+    <a href="http://<%= product.link %>" style="text-decoration: none" target="_blank">
+      <span class="btn btn-inverse" >
+        <% if product.status == 1 %>
+          Купить
+        <% end %>
+        <% if product.status == 2 %>
+          Узнать больше
+        <% end %>
+        <% if product.status == 3 %>
+          Сделать предзаказ
+        <% end %>
+        <% if product.status == 4 %>
+          Получить
+        <% end %> на <%= product.company_name %>
+      </span>
+    </a>
+    <%= render 'shared/product_status', :product => product %>
+  </h2>
+</div>

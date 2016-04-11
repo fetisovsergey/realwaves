@@ -1,0 +1,78 @@
+<% if object.errors.any? %>
+  <div id="error_explanation">
+    <% object.errors.full_messages.each do |msg| %>
+        <% if msg.include?("invalid") %>
+           <% if msg.include?("Link") %>
+            Неверная ссылка на товар
+           <% end %>
+           <% if msg.include?("Title") %>
+            Измените заголовок вашей публикации
+           <% end %>
+           <% if msg.include?("Company") %>
+            Измените название компании
+           <% end %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("blank") %>
+           <% if msg.include?("Link") %>
+            Введите ссылку на товар
+           <% end %>
+           <% if msg.include?("Title") %>
+            Введите заголовок вашей публикации
+           <% end %>
+           <% if msg.include?("Company") %>
+            Введите название компании
+           <% end %>
+           <% if msg.include?("Content") %>
+            Добавьте описание вашего товара
+           <% end %>
+           <% if msg.include?("Photo1") %>
+            Необходимо загрузить первую фотографию
+           <% end %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("short") %>
+           <% if msg.include?("Link") %>
+            Ссылка на товар слишком короткая
+           <% end %>
+           <% if msg.include?("Title") %>
+            Заголовок вашей публикации слишком короткий
+           <% end %>
+           <% if msg.include?("Company") %>
+            Название компании слишком короткое
+           <% end %>
+           <% if msg.include?("Content") %>
+            Описание вашего товара слишком короткое, добавьте больше информации
+           <% end %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("size") %>
+           <% if msg.include?("greater") %>
+            Выберите более качественную фотографию для добавления в публикацию
+           <% else %>
+            Размер загружаемой фотографии не должет превышать 10 Мб
+           <% end %>
+           <%= msg %>
+           <% break %>
+        <% end %>
+        <% if msg.include?("long") %>
+           <% if msg.include?("Link") %>
+            Ссылка на товар слишком длинная
+           <% end %>
+           <% if msg.include?("Title") %>
+            Заголовок вашей публикации слишком длинный
+           <% end %>
+           <% if msg.include?("Company") %>
+            Название компании слишком длинное
+           <% end %>
+           <% if msg.include?("Content") %>
+            Описание вашего товара слишком большое, сократите объем информации
+           <% end %>
+           <% break %>
+        <% else %>
+          <%= msg %>
+        <% end %>
+    <% end %>
+  </div>
+<% end %>
+

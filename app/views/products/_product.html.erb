@@ -1,0 +1,29 @@
+<div class="product">
+  <%= image_tag(product.photo1.url(:full),style:"width:100%") %>
+
+  <h1><%= product.title %></h1>
+
+  <section class="content">
+    <%= product.content %>
+    <div class="gradient"></div>
+  </section>
+
+  <h2>
+    <a href="http://<%= product.link %>" style="text-decoration: none">
+      <span class="btn btn-inverse" >
+        <% if product.status == 1 %>
+          Купить
+        <% end %>
+        <% if product.status == 2 %>
+          Узнать больше
+        <% end %>
+        <% if product.status == 3 %>
+          Сделать предзаказ
+        <% end %>
+        <% if product.status == 4 %>
+          Получить
+        <% end %> на <%= product.company_name %>
+      </span>
+    </a>
+  </h2>
+</div>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="YourWaves - платформа для представления уникальных вещей и услуг. Если у тебя есть нечто особенное, то зарегестрируйся и поведай людям об этом на YourWaves" />
+</head>
+
+<body>
+	<% @products.each do |product| %>
+		<% if product == @products.first %>
+			<%= render 'products/product_big', :product => product %>
+		<% else %>
+			<% if product == @products.second %>
+				<%= render 'products/product_second', :product => product %>
+			<% else %>
+				<%= render 'products/product_small', :product => product %>
+			<% end %>
+		<% end %>
+	<% end %>
+	<%= render 'shared/paginate', :products => @products %>
+</body>
+</html>
+
+
+
+

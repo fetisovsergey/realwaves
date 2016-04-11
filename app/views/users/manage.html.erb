@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% provide(:title, @title) %>
+	<meta name="description" content="YourWaves | Управление пользователями" />
+</head>
+<body>
+<div id="admin_form">
+  <h1>Управление публикациями</h1>
+  <% @products.each do |product| %>
+  	<div id="product<%=product.id %>">
+		<% if product.available == true %>
+  			<%= render 'shared/product_li', :product => product %>
+		<% else %>
+			<div style="background: #FFCC00">
+				<%= render 'shared/product_li', :product => product %>
+			</div>
+		<% end %>
+	</div>
+  <% end %>
+  <%= render 'shared/paginate', :products => @products %>
+</div>
+</body>
+</html>
+
+
+

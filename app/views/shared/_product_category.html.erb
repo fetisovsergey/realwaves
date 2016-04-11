@@ -1,0 +1,25 @@
+  <div class="product_category">
+  <% if product.category1 == 1 %>
+	  <%= link_to("СТИЛЬ", style_path,style:"color:#A80000") %>
+  <% end %>
+
+  <% if product.category1 == 2 %>
+	  <%= link_to("КИНО И МУЗЫКА", movies_and_music_path,style:"color:#A80000") %>
+  <% end %>
+
+  <% if product.category1 == 3 %>
+  	  <%= link_to("ТРАНСПОРТ", vehicle_path,style:"color:#A80000") %>
+  <% end %>
+
+  <% if product.category1 == 4 %>
+  	  <%= link_to("ТЕХНОЛОГИИ", tech_path,style:"color:#A80000") %>
+  <% end %>
+
+  <% if product.category1 == 5 %>
+  	  <%= link_to("СПОРТ", sport_path,style:"color:#A80000") %>
+  <% end %>
+
+  <% if product.category1 == 6 %>
+  	  <%= link_to("ДРУГОЕ", stuff_path,style:"color:#A80000") %>
+  <% end %>
+  </div>

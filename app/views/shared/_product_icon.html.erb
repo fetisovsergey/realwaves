@@ -1,0 +1,5 @@
+<% product = Product.where("id == ?",vote.votable_id).first %>
+<a href="<%= product_path(product) %>" class="product_icon" style="text-decoration:none">
+  <%= image_tag(product.photo1.url(:medium),class:"image") %>
+  <%= product.title %>
+</a>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% provide(:title, 'Регистрация') %>
+	<meta name="description" content="YourWaves - платформа для представления уникальных вещей и услуг | Регистрация" />
+</head>
+<body>
+  <div id="signup_form">
+	<h1>Регистрация</h1>
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+      Имя пользователя<br>
+      <%= f.text_field :name, placeholder: "Как Вас зовут?)", class: "text_form" %><br>
+
+      Адрес электронной почты<br>
+      <%= f.text_field :email, placeholder: "Email должен быть реальным", class: "text_form" %><br>
+      Пароль<br>
+      <%= f.password_field :password, placeholder: "Придумайте пароль для вашего аккаунта", class: "text_form" %><br>
+      Повторите пароль<br>
+      <%= f.password_field :password_confirmation, placeholder: "Еще раз!", class: "text_form" %><br>
+
+      <%= f.submit "Зарегестрироваться", class: "btn btn-inverse", style:"width:60%;margin-top:5px;background:#000000" %>
+    <% end %>
+  </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<% if products.count > 14 %>
+
+<script>
+$(document).ready(function() {
+	$('#btn_go').bind('click', function() {
+		$(".pagination .next_page a").get(0).click();
+  	});
+}); 
+</script>
+<%= will_paginate products, :previous_label => "&#9668; Назад",:next_label => "Вперед &#9658;",:inner_window => 1, :outer_window => 0 %>
+
+<div id="btn_go" class="btn">
+	ПОКАЗАТЬ БОЛЬШЕ
+</div>
+
+<% end %>
